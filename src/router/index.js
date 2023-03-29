@@ -4,7 +4,7 @@ const routes = [
   {
     path: '/',
     name: 'layout',
-    component: () => import('@/pages/layoutView.vue'),
+    component: () => import('@/pages/LayoutView.vue'),
     redirect: '/pagination',
     children: [
       {
